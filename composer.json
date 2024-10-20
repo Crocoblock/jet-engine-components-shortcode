@@ -1,0 +1,17 @@
+{
+    "name": "olexandr/jet-engine-components-shortcode",
+    "autoload": {
+        "psr-4": {
+            "Olexandr\\JetEngineComponentsShortcode\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10",
+        "wp-coding-standards/wpcs": "^3.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
